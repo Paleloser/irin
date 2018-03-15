@@ -1,0 +1,18 @@
+# Exclude everything
+/*
+# Is this possible?
+!.gitignore
+# Don't exclude controllers folder
+!/controllers
+# Exclude everything within controllers folder
+/controllers/*
+# Exception for iri1controller.cpp and .h which will be indexed
+!/controllers/iri1controller.cpp
+!/controllers/iri1controller.h
+# Same here for iri1exp.cpp and .h
+!/experiments/
+/experiments/*
+!/experiments/iri1exp.cpp
+!/experiments/iri1exp.h
+# Same for paramFiles
+!/paramFiles

@@ -1,7 +1,8 @@
 # Exclude everything
 /*
-# Is this possible?
+# .gitignore and README.md
 !.gitignore
+!README.md
 # Don't exclude controllers folder
 !/controllers
 # Exclude everything within controllers folder
